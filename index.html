@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+    <head>
+        <meta charset="UTF-8"
+        <title>Meu Portfólio</title>
+        <style>
+            body {
+                font-family: monospace, sans-serif;
+                background-image: linear-gradient(to right, #849B5C, #BFFFC7);
+            }
+            .description {
+                line-height: 20px;
+            }
+            .sidebar {
+                height: 100%;
+                width: 180px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(229, 233, 240);
+                overflow-x: hidden;
+                padding-top: 10px;
+                font-size: 20px;
+                line-height: 40px;
+                border-right: 3px solid black;
+            }
+            .main {
+                margin-left: 180px;
+                padding: 0px 10px;
+            }
+            .navlinks {
+                text-decoration: none;
+                border-bottom: 2px solid black;
+                display: block;
+                background-color: #849B5C;
+                text-align: center;
+            }
+            #photo {
+                border-bottom: 2px solid black;
+                border-top: 2px solid black;
+                color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="brunaBarbosa.jpg" width="180px" alt="Foto de Bruna Barbosa" id="photo"><br>
+            <a href="https://www.linkedin.com/in/brunadnbarbosa/" target="_blank" class="navlinks">Linkedin</a>
+            <a href="https://github.com/brunadnbarbosa" target="_blank" class="navlinks">GitHub</a>
+            <a href="#abilities" class="navlinks">Habilidades</a>
+            <a href="#recommended" class="navlinks">Recomendados!</a>
+        </div>
+
+        <!-- Main page -->
+    <div class="main">
+        <div id="aboutme">
+        <h2>Bruna Barbosa</h2>
+        <p class="description">Estudante de desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank>">Trybe!</a>
+        <br>Graduada em Psicologia, tenista <i>em formação</i>, viciada em <s>comprar</s> ler livros.
+        <br>Brasileira, natural de <strong>Belo Horizonte, Minas Gerais</strong>.</p>
+        </div>
+        
+        <div id="abilities">
+        <h4>Habilidades</h4>
+        <ul>
+            <li>Unix & Shell</li>
+            <li>Git & GitHub</li>
+            <li>HTML & CSS</li>
+            <li>Inglês Avançado (conversação e escrita)</li>
+            <li>Microsoft Office</li>
+        </ul>
+        </div>
+        
+        <div id="recommended">
+        <h4>Links recomendados!</h4>
+        <ol>
+            <li>Podcast <a href="https://open.spotify.com/show/3HXkPOTPRFlRx60QSfDVwX" target="_blank">"Sobre o Feminino"</a></li>
+            <li>Podcast <a href="https://www.b9.com.br/shows/poenaestante/" target="blank">"Põe na Estante"</a></li>
+            <li><a href="https://www.youtube.com/channel/UC8IE3KgEi164Dv6xBXmnkkw" target="_blank">Canal de receitas da Elisa Fernandes</a></li>
+            <li><a href="https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ" target="_blank">Canal <s>com a melhor stream de rpg do mundo</s> Critical Role</a></li>
+        </ol>
+        </div>
+    </div>
+    </body>
